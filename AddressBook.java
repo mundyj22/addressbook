@@ -11,3 +11,8 @@ public class AddressBook {
 		friends = new Contact[10];
 		numfriends = 0;
     }
+//create a method to add a contact that's passed as parameters
+	publi void addContact(Contact c) {
+		friends[numfriends] = c;
+		numfriends++;
+	}
